@@ -15,7 +15,15 @@ h1 {
 }
 
 .project-card {
-  margin-bottom: 32px;
+  border: 1px solid #222222;
+  padding: 24px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 
 .project-card h3 {
