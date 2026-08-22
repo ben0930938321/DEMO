@@ -1,4 +1,4 @@
-fetch("projects.json")
+fetch("project.json")
   .then(response => response.json())
   .then(projects => {
     const container = document.querySelector("#projects");
