@@ -36,3 +36,17 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+  body {
+    padding: 24px 16px;
+  }
+
+  nav {
+    margin-bottom: 32px;
+  }
+
+  header {
+    margin-bottom: 32px;
+  }
+}
