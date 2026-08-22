@@ -14,6 +14,16 @@ h1 {
   margin-bottom: 4px;
 }
 
+#projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.project-card {
+  margin-bottom: 0;
+}
+
 .project-card {
   border: 1px solid #222222;
   padding: 24px;
@@ -56,5 +66,9 @@ nav a:hover {
 
   header {
     margin-bottom: 32px;
+  }
+
+  #projects {
+    grid-template-columns: 1fr;
   }
 }
